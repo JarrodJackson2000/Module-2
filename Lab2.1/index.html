@@ -1,8 +1,111 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
+  <head>
+    <title>HTML Tags</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      description="How to become familiar with HTML tags"
+    />
+    <meta name="keywords" content="HTML, Tags, Learning, familiar" />
+    <meta name="author" content="Jarrod Jackson" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
 
   <body>
+    <h1>My HTML learning journey</h1>
+    <article>
+      <h2>Learning elements - div, span, p, pre, ul, li, ol, article</h2>
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <span>HTML span</span>
+      <span>CSS span</span>
+      <span>JavaScript span</span>
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <p>p represents paragraph without preserving spacing</p>
+      <pre>
+        Text in         a pre element
+        is displayed in a fixed-width
+        font, and it preserves
+        both      spaces and
+        line breaks
+        </pre
+      >
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+      </ul>
+      <ol>
+        <li>First</li>
+        <ol>
+          <li>Second First</li>
+          <li>Third First</li>
+        </ol>
+        <li>Second</li>
+        <li>Third</li>
+      </ol>
+    </article>
+    <article>
+      <h2>HTML elements - Tables - table, thead, tbody, tr, td, th</h2>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">First header</th>
+            <th>Second header</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>First cell - first row</td>
+            <td>Second cell - first row</td>
+            <td>Third cell - first row</td>
+          </tr>
+          <tr>
+            <td>First cell - second row</td>
+            <td>Second cell - second row</td>
+            <td rowspan="2">Third cell - second row</td>
+          </tr>
+          <tr>
+            <td>First cell - third row</td>
+            <td>Second cell - third row</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    <article>
+      <h2>HTML elements - img, video, audio</h2>
+      <img
+        src="https://picsum.photos/400/400"
+        alt="Randomly loaded image?"
+        width="500"
+        height="300"
+      />
+      <img
+        src="./resources/html_lab_image.jpg"
+        alt="Cloudy sunset view"
+        width="500"
+        height="300"
+      />
+      <video autoplay width="250">
+        <source src="./resources/flower.webm" type="video/webm" />
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+      <audio autoplay src="/resources/t-rex-roar.mp3">
+        Your browser does not support the <code>audio</code>
+      </audio>
+    </article>
     <header>
       <nav>
         <!-- works like <a href="/index.html">Home</a> -->
