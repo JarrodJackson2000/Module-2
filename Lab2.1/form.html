@@ -6,11 +6,44 @@
     <header>
       <nav>
         <!-- works like <a href="/index.html">Home</a> -->
-        <a href="/">Home</a>
+        <a href="/index.html">Home</a>
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <form method="POST" action="http://127.0.0.1:5500/form.html">
+        <div>
+          <label name="firstName" value="text">First Name</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label name="lastName" value="text">Last Name</label>
+          <input type="text" />
+        </div>
+
+        <label for="favorite-language">Select your favorite language:</label>
+        <div>
+          <input name="HTML" type="radio" value="html">HTML</input>
+          <input name="CSS" value="css" type="radio" >CSS</input>
+          <input name="JavaScript" value="javascript" type="radio" >JavaScript</input>
+        </div>
+        <div>
+        <label for="type-of-vehicle-you-own">What type of vehicle do you own:</label>
+        <input name="Car" type="checkbox" value="car">Car</input>
+        <input name="Motorbike" type="checkbox" value="motorbike">Motorbike</input>
+        <input name="Boat" type="checkbox" value="boat">Boat</input>
+    </div>
+    <label for="type-of-car">What kind of car do you own:</label>
+    <select>
+    <option value="Toyota">Toyota</option>
+    <option value="Nissan">Nissan</option>
+    <option value="Mazda">Mazda</option>
+    <option value="Other">Other</option>
+</select><div>
+<button type="submit">Submit</button>
+</div>
+      </form>
+    </main>
 
     <footer>Copyright &copy; 2024</footer>
   </body>
