@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+
+  <body>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="/index.html">Home</a>
+      </nav>
+    </header>
+
+    <main>
+      <form method="POST" action="http://localhost:3000/profile">
+        <div>
+          <label for="firstName" >First Name</label>
+          <input id="firstName" name="firstName" type="text" />
+        </div>
+        <div>
+          <label for="lastName">Last Name</label>
+          <input id="lastName" name="lastName" type="text" />
+        </div>
+
+        <label for="favorite-language" >Select your favorite language:</label>
+        <div>
+          <input value="HTML" type="radio" name="favorite-language">HTML</input>
+          <input value="CSS" type="radio" name="favorite-language">CSS</input>
+          <input value="JavaScript" type="radio" name="favorite-language" >JavaScript</input>
+        </div>
+        <div>
+        <label  for="type-of-vehicle-you-own">What type of vehicle do you own:</label>
+        <input type="checkbox" value="car" name="type-of-vehicle-you-own">Car</input>
+        <input  type="checkbox" value="motorbike" name="type-of-vehicle-you-own">Motorbike</input>
+        <input type="checkbox" value="boat" name="type-of-vehicle-you-own">Boat</input>
+    </div>
+    <label  for="type-of-car">What kind of car do you own:</label>
+    <select name="type-of-car">
+    <option  value="Toyota">Toyota</option>
+    <option  value="Nissan">Nissan</option>
+    <option  value="Mazda">Mazda</option>
+    <option  value="Other">Other</option>
+</select><div>
+<button type="submit">Submit</button>
+</div>
+      </form>
+    </main>
+
+    <footer>Copyright &copy; 2024</footer>
+  </body>
+</html>
