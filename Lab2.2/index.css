@@ -1,0 +1,124 @@
+/* I. Selectors */
+/* Put styles for questions 1.1, 1.2, 1.3 and 1.4 here */
+article {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.style-me1 {
+  color: red;
+}
+
+#style-me2 {
+  color: blue;
+}
+.style-me1#style-me2 {
+  color: purple;
+}
+/* Put styles for questions 2.1 and 2.2 here */
+.my-descendants-are-styled p {
+  background-color: red;
+}
+
+.my-children-are-styled > p {
+  background-color: lightgreen;
+}
+/* II. Box model and common properties */
+/* Put styles for questions 1-8 here */
+.box {
+  background-color: aquamarine;
+  margin: 1%;
+  padding: 10rem;
+  width: 700px;
+  height: 150px;
+  overflow: auto;
+  text-align: center;
+  background-image: url(./assets/img1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box {
+  outline: 10px black solid;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+/* III. Positioning */
+/* Put styles for questions 1-3 here */
+.position-absolute {
+  position: absolute;
+  top: 0px;
+  background-color: blueviolet;
+}
+.position-relative {
+  position: relative;
+  background-color: green;
+  left: 250px;
+}
+
+.position-sticky {
+  position: sticky;
+  background-color: blue;
+  top: 5px;
+}
+/* IV. Styling text */
+/* Put styles for questions 1-10 here */
+.text-style {
+  color: hotpink;
+  font-size: medium;
+  line-height: 2rem;
+  font-weight: 800;
+  font-family: "Briem Hand", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: calc(1em / 2);
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.briem-hand-font {
+  font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* V. Styling links */
+/* Put styles for questions 1-3 here */
+a,
+a:link {
+  color: lightcoral;
+  font-size: medium;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: darkred;
+  text-decoration: underline;
+}
+a:visited {
+  color: aqua;
+  font-style: italic;
+}
+/* VI. calc() */
+/* Put styles for questions 1-3 here */
+.calc-style {
+  width: 100vw;
+  background-color: steelblue;
+  width: calc(100vw - 100px);
+}
+
+.fixed-width-col {
+  display: inline-block;
+  width: 200px;
+}
+
+.fluid-col {
+  display: inline-block;
+  width: calc(100vw - 300px);
+}
