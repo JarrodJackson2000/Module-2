@@ -1,0 +1,138 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 1.6;
+  background-color: #d0cfcf;
+  color: #1d1e18;
+}
+
+.section1 {
+  display: flex;
+}
+
+.section2 {
+  display: flex;
+}
+
+.introduction {
+  width: 25%;
+  margin: 10px;
+}
+
+.experience {
+  width: 75%;
+  margin: 10px;
+}
+.section3 {
+  display: flex;
+}
+
+.skills-and-education {
+  display: flex;
+  justify-content: left;
+  margin: 20px;
+  padding: 20px;
+}
+.skills {
+  width: 25%;
+  margin: 20px;
+}
+
+.portfolio {
+  width: 25%;
+  margin: 20px;
+}
+/* Header styles */
+
+.introduction h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+  color: #1d1e18;
+}
+
+.headshot {
+  border-radius: 15%;
+  border: 2px solid #56494c;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  justify-content: left;
+}
+
+ul {
+  list-style: circle;
+  margin-left: 25px;
+}
+
+.experience2 {
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid #56494c;
+  border-radius: 10px;
+  background-color: #d0cfcf; /* Light gray background */
+}
+
+.skills {
+  background-color: #d0cfcf;
+}
+
+.education {
+  background-color: #d0cfcf;
+}
+
+.portfolio {
+  background-color: #d0cfcf;
+}
+
+.contact {
+  background-color: #d0cfcf;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+  border: 2px solid #56494c;
+  border-radius: 10px;
+  background-color: #ffffff; /* Light gray background */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #1d1e18;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #26547c;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #1d1e18;
+  color: #1d1e18;
+  font-size: 14px;
+  justify-content: center;
+}
