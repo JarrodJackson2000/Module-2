@@ -74,8 +74,8 @@ ul {
 }
 
 .experience2 {
-  margin: 30px;
-  padding: 20px;
+  margin: 20px;
+  padding: 10px;
   border: 2px solid #56494c;
   border-radius: 10px;
   background-color: #d0cfcf; /* Light gray background */
@@ -136,4 +136,103 @@ a:hover {
   color: #1d1e18;
   font-size: 14px;
   justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-row-gap: 10px;
+    column-gap: 0px;
+    margin: 0;
+  }
+
+  .introduction {
+    display: grid;
+    grid-row: 1;
+    grid-column: auto;
+    height: fit-content;
+    width: fit-content;
+    margin: 0;
+  }
+
+  .experience {
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+  }
+
+  .skills li {
+    font-size: small;
+  }
+
+  .portfolio p {
+    font-size: small;
+  }
+
+  .grid-item2 {
+    margin: 0px;
+  }
+
+  .skills-and-education {
+    display: grid;
+    grid-template-rows: auto auto auto;
+  }
+
+  .skills {
+    display: grid;
+    grid-row: 1;
+    width: 80vw;
+    grid-template-columns: auto auto;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+  .skills li {
+    margin: 0 10px;
+  }
+
+  .education {
+    grid-row: 2;
+    width: 80vw;
+    margin-left: 20px;
+  }
+
+  .portfolio {
+    grid-row: 3;
+    width: 80vw;
+    margin-left: 20px;
+  }
+
+  .leftSide {
+    margin-right: 150px;
+  }
+
+  .rightSide {
+    margin-left: 150px;
+  }
+
+  body {
+    margin: 30px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience2 {
+    margin: 5px;
+  }
 }
