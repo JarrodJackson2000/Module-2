@@ -1,0 +1,32 @@
+:root {
+  --transition-duration: 0.5s; /* Default transition duration */
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.light {
+  border: solid black 5px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  flex-direction: row;
+}
+
+.light {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  opacity: 0.6; /* Initial opacity */
+  transition: opacity var(--transition-duration) ease; /* Transition property for opacity change */
+}
